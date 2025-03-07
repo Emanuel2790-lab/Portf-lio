@@ -48,7 +48,7 @@ body{
     font-size: 45px;
 }
 
-#secaoum{
+#sec_1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,7 +119,7 @@ body{
     border:#FF4545 2px solid;
 }
 /*--------------------------------------------------------*/
-#sectiondois{
+#sec_2{
     display: flex;
     justify-content: center;
     background-color:#1E1E1E;
@@ -239,7 +239,7 @@ body{
 }
 
 .img-sec3{
-    border-right: #FF4545 2px solid;
+    border-right: #FF4545 3px solid;
     height: 240px;
     display: flex;
     justify-content: center;
@@ -274,8 +274,76 @@ body{
     height: 270px;
     padding-left: 7px;
     border: #939393 2px solid;
+    margin-bottom: 80px;
 }
 
 #curso3{
     margin-left: 70px;
+}
+
+#colum{
+    display: flex;
+}
+
+#sec_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#colum-um{
+    margin-right: 100px;
+}
+
+/*--------------------------------------------------*/
+
+.link-footer{
+    color:inherit;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.desc-footer{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.img-footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    width: 140px;
+    height: 140px;
+    border: #939393 2px solid;
+    
+}
+
+
+footer{
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+#linha-footer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titulo-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
 }
