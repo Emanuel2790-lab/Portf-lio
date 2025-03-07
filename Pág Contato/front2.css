@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    font-family: karla;
+    background-color: hsl(148, 38%, 91%);
+}
+
+div[one]{
+    background-color: white;
+    border-radius: 15px;
+}
+
+
+#bloco2{
+    display: flex;
+}
+
+#bloco4{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 15px;
+}
+
+.espaco{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+#botao{
+    margin-bottom: 20px;
+    width: 422px;
+    padding: 8px 0px;
+    background-color: hsl(169, 82%, 27%);
+    border: none;
+    color: white;
+    font-family: karla;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#botao:hover{
+    background-color: hsl(170, 82%, 18%);;
+}
+
+#name{
+    margin-right: -12.5px;
+    
+}
+
+#type1{
+    border: 1px hsl(186, 15%, 59%) solid;
+    width: 186px;
+    margin-right: -32px;
+    font-size: 13px;
+    padding: 4px 9px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 9px;
+
+}
+
+#type1:hover{
+    background-color: hsl(148, 38%, 91%);
+    border-color:  hsl(169, 82%, 27%);
+    outline: none;
+    
+}
+
+#type2{
+    border: 1px hsl(186, 15%, 59%) solid;
+    width: 188px;
+    font-size: 13px;
+    padding: 4px 9px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#type2:hover{
+    background-color: hsl(148, 38%, 91%);
+    border-color:  hsl(169, 82%, 27%);
+    outline: none;
+   
+}
+
+#email{
+    width: 405px;
+    border: 1px hsl(186, 15%, 59%) solid;
+    outline: none;
+    padding-left: 15px;
+    font-family: karla;
+}
+
+#email:hover{
+    border-color:  hsl(169, 82%, 27%);
+    outline: none;
+    cursor: pointer;
+}
+
+#message{
+    width: 403px;
+    height: 100px;
+    margin-bottom: 20px;
+    outline: none;
+    padding-left: 15px;
+    font-family: karla;
+    border: 1px hsl(186, 15%, 59%) solid;
+    border-radius: 5px;
+    margin-top: 5px;
+    resize: none;
+    overflow-y: hidden;
+    padding-top: 6px;
+}
+
+#message:hover{
+    border-color:  hsl(169, 82%, 27%);
+    outline: none;
+    cursor: pointer;
+}
+
+#support{
+    margin-bottom: 3px;
+    border: 1px hsl(186, 15%, 59%) solid;
+    margin-right: 8px;
+    cursor: pointer;
+    
+}
+
+#general{
+    margin-bottom: 3px;
+    border: 1px hsl(186, 15%, 59%) solid;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.campo{
+    border: 1px hsl(186, 15%, 59%) solid;
+    border-radius: 5px;
+    padding: 5px 0px;
+    margin-top: 5px;
+}
+
+#camponome{
+    width: 190.5px;
+    outline: none;
+    padding-left: 15px;
+    font-family: karla;
+}
+
+#camponome:hover{
+    border-color:  hsl(169, 82%, 27%);
+    outline: none;
+    cursor: pointer;
+}
+
+#camponome2{
+    width: 190.5px;
+    outline: none;
+    padding-left: 15px;
+    font-family: karla;
+}
+
+#camponome2:hover{
+    border-color:  hsl(169, 82%, 27%);
+    outline: none;
+    cursor: pointer;
+}
+
+#bloco6{
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#consent{
+    margin-right: 13px;
+    cursor: pointer;
+}
+
+#bloco5{
+    margin-top: 15px;
+}
+
+#bloco3{
+    margin-top: 15px;
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+#logo{
+    width: 130px;
+    margin-left: 80px;
+    
+}
+
+#bloco1{
+    background-image: url("bg-pattern-desktop.svg");
+    width: 600px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#bloco{
+    display: flex;
+}
+
+#img{
+    width: 400px;
+}
+
+#titulo{
+    margin-top: 80px;
+    margin-left: 80px;
+    font-size: 45px;
+}
+
+#text{
+    margin: 0%;
+    margin-left: 80px;
+    font-size: 13px;
+    margin-bottom: 30px;
+    color: #e4af9c;
+}
+
+#input{
+    width: 290px;
+    margin-left: 80px;
+    padding: 13px;
+    
+    border-radius: 100px;
+    border: #c9a89d solid 1px;
+    background: none;
+    font-family: 'Josefin Sans';
+    text-decoration-color: #e4af9c;
+}
+
+#botao{
+    padding: 10px;
+    width: 70px;
+    border-radius: 100px;
+    background-color: #e4af9c;
+    border: none;
+    margin-left: -60px;
+
+}
+
+#login{
+    display: flex;
+    align-items: center;
+
+}
+
+#bloco{
+    display: flex;
+    justify-content: center;
+}
+
+html, body{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

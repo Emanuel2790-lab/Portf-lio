@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="front2.css">
+</head>
+<body>
+    <div one>
+        <div id="bloco1" class="espaco"><h1>Contact Us</h1></div>
+        <div id="bloco2">
+            <div class="espaco" id="name">First Name <span style="color:hsl(169, 82%, 27%)">*</span> <br><input type="text" class="campo" id="camponome"></div>
+            <div class="espaco">Last Name <span style="color:hsl(169, 82%, 27%)">*</span> <br><input type="text" class="campo" id="camponome2"></div>
+        </div>
+        <div id="bloco3">
+            <div class="espaco">Email Address <span style="color:hsl(169, 82%, 27%)">*</span> <br><input type="email" id="email" class="campo"></div>
+        </div>
+        <div id="bloco4">
+            <div class="espaco"><span id="query">Query Type <span style="color:hsl(169, 82%, 27%)">*</span></span> <div id="type1"><input type="radio" id="general" name="query_type">General Enquiry</div></div>
+            <div class="espaco" id="type2"><input type="radio" id="support" name="query_type">Support Request</div>
+        </div>
+        <div id="bloco5">
+            <div class="espaco">Message <span style="color:hsl(169, 82%, 27%)">*</span> <br><textarea name="" id="message" cols="30" rows="10"></textarea></div>
+        </div>
+        <div id="bloco6">
+            <input type="checkbox" id="consent" class="espaco"> I consent to being contacted by the team   <span style="color:hsl(169, 82%, 27%)"> *</span>
+        </div>
+        <div id="bloco7">
+            <button id="botao" class="espaco" onclick="clicou()">Submit</button>
+        </div>
+    </div>
+
+    <script src="front2.js"></script>
+</body>
+</html>
+
