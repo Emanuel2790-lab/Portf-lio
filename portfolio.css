@@ -306,7 +306,7 @@ body{
 
 .cursos:hover{
     border: white 2px solid;
-    
+    transition: 0.2s;
 }
 
 #curso3{
