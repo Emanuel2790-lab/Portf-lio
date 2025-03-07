@@ -78,12 +78,14 @@ body{
 #titulo1-sec1{
     font-size: 45px;
     color: #FF4545;
+
 }
 
 #nome-sec1{
     font-size: 40px;
     margin-bottom: -25px;
     font-weight: 850;
+    margin-top: 10px;
 }
 
 #info-sec1{
@@ -115,4 +117,165 @@ body{
 
 .icons-sec1:hover{
     border:#FF4545 2px solid;
+}
+/*--------------------------------------------------------*/
+#sectiondois{
+    display: flex;
+    justify-content: center;
+    background-color:#1E1E1E;
+    margin-top: 150px;
+}
+
+#parte2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#colunas{
+    display: flex;
+    flex-direction: row;
+}
+
+.link-projeto{
+    color:inherit;
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 80px;
+}
+
+#idealize{
+    border: #2E00FF 2px solid;
+}
+
+#comingsoon{
+    border: #FF4000 2px solid;
+}
+
+#testeresult{
+    border: white 2px solid;
+}
+
+#pagcontato{
+    border: #05FF48 2px solid;
+}
+
+#deckcards{
+    border: #008CFF 2px solid;
+}
+
+#chucknorris{
+    border: #FFFF00 2px solid;
+}
+
+.box{
+    background-color: black;
+    width: 400px;
+    height: 280px;
+    margin-top: 90px;
+}
+
+.titulo-sec2{
+    font-size: 45px;
+    margin-left: 30px;
+    margin-bottom: -1px;
+}
+
+.desc-sec2{
+    margin-left: 30px;
+    color: #939393;
+}
+
+#linkum{
+    color:#2E00FF;
+}
+
+#linkdois{
+    color: white;
+}
+
+#linktres{
+    color: #008CFF;
+}
+
+#linkquatro{
+    color:#FF4000;
+    margin-top: 60px;
+}
+
+#linkcinco{
+    color: #05FF48;
+}
+
+#linkseis{
+    color: #FFFF00;
+}
+
+#espaco-4{
+    margin-top: 36px;
+    margin-left: 30px;
+}
+.espaco{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+#colunaum{
+    margin-right: 200px;
+}
+
+/*------------------------------------------------*/
+
+.cursos-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.imagem-sec3{
+   width: 200px;
+}
+
+.img-sec3{
+    border-right: #FF4545 2px solid;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    
+}
+
+.cursos-desc-t1{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.cursos-desc-t2{
+    font-size: 36px;
+    font-weight: 750;
+    margin-top: -35px;
+    margin-bottom: -3px;
+}
+
+.cursos-desc-t3{
+    font-size: 37px;
+    font-weight: 800;
+}
+
+.cursos{
+    display: flex;
+    align-items: center;
+    background-color: #1E1E1E;
+    width: 610px;
+    height: 270px;
+    padding-left: 7px;
+    border: #939393 2px solid;
+}
+
+#curso3{
+    margin-left: 70px;
 }
