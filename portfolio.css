@@ -334,11 +334,12 @@ body{
     color:inherit;
     text-decoration: none;
     font-size: 30px;
+    transition: 0.3s;
 }
 
-.p-footer{
-    font-size: 30px;
-    margin-top: -30px;
+.link-footer:hover{
+    color: #FF4545;
+    transition: 0.3s;
 }
 
 .desc-footer{
@@ -357,7 +358,6 @@ body{
     border: #939393 2px solid;
     
 }
-
 
 footer{
     background-color: #1E1E1E;
